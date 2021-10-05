@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:rgb(55, 8, 88);
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black ;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4.h5.h6{
+    color: rgb(255, 16, 16);
+}
+.contact{
+    float: right;
+    padding:30px ;
+}
+.contact a{
+text-decoration: none;
+color: red;
+font-weight: bold;
+
+}
+.contact a:hover{
+text-decoration: underline;
+color: rgb(238, 10, 207);
+}
+.div-clear{
+
+    clear: both;
+}
+hr{
+    border:  3px solid  black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#section{
+
+}
+.contact{
+    margin: 30px;
+}
+.left-div{
+ width: 30%;
+ float: left;
+}
+.right-div{
+    width: 70%;
+    float: left ;
+}
+.common-hr{
+    border: solid black 0.9px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.ede-template-left{
+    float: left;
+    width: 20%%;
+}
+.ede-template-right{
+    float:right;
+    width: 20%;
+    
+}
+.footer{
+    background-color: black;text-align: center ;
+    padding: 10px;
+
+}
+.footer a{
+    color: cornsilk;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer p{
+    color: cornsilk;
+
+    margin-top: 20px;
+}
